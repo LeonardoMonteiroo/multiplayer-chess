@@ -8,6 +8,9 @@ export default {
         'color-board-white': '#E8EDF9',
         'color-dark-blue': '#34364C',
       },
+      gridTemplateColumns: {
+        '1/3-2/3': '1fr 2fr',
+      },
     },
   },
   plugins: [],
