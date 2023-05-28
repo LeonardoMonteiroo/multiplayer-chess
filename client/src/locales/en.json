@@ -1,0 +1,11 @@
+{
+    "general": {
+        "site_name": "CHESS"
+    },
+    "menu": {
+        "home": "HOME",
+        "play": "PLAY",
+        "sign_up": "SIGN UP",
+        "login": "LOGIN"
+    }
+}
