@@ -1,10 +1,11 @@
-import Sidebar from './components/Sidebar'
+import { BrowserRouter } from 'react-router-dom'
 import './utils/i18n'
+import { Router } from './routes'
 
 export function App() {
   return (
-    <div className="h-screen">
-      <Sidebar />
-    </div>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }

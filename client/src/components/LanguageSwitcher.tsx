@@ -10,9 +10,10 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="flex justify-center items-center">
-      <GlobeHemisphereWest />
+      <GlobeHemisphereWest size={21} />
       <select
         className="bg-color-dark-blue"
+        value={i18n.language}
         onChange={(e) => handleChangeLanguage(e.target.value)}
       >
         <option value="en">English</option>

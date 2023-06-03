@@ -11,7 +11,7 @@ export default function Sidebar() {
     <div className="bg-color-dark-blue h-full w-48 text-color-board-white flex flex-col justify-between items-center gap-3 p-3">
       <div className="flex justify-center items-center gap-1">
         <img src={logo} alt="peão preto" />
-        <span className="font-bold text-xl">{t('general.site_name')}</span>
+        <span className="font-bold text-2xl">{t('general.site_name')}</span>
       </div>
 
       <div className="flex-grow justify-center items-center">
