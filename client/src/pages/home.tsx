@@ -1,8 +1,7 @@
 export default function home() {
   return (
-    <div>
-      <div>quadrado</div>
-      <div></div>
+    <div className="flex items-center justify-center h-full w-full">
+      TESTE CENTRALIZADO
     </div>
   )
 }
